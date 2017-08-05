@@ -8,7 +8,9 @@ structure:
 - running each option individually (withdraw, check balance, greeting, deposit)
       - use loops
 - sign off
-add an array to track the account @
+
+TRY ADDING A PIN TO THE SYSTEM
+
 
 =end
 
@@ -81,6 +83,8 @@ def intro
     puts
     puts
 
+    $runner = 3
+    return $runner
   end
 end
 
